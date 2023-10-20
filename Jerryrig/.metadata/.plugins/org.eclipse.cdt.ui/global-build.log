@@ -1,0 +1,197 @@
+16:25:29 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I"C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "JerryRigIDE.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\STM32L496ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="JerryRigIDE.map" -Wl,--gc-sections -static -L"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: JerryRigIDE.elf
+ 
+arm-none-eabi-size   JerryRigIDE.elf 
+arm-none-eabi-objdump -h -S  JerryRigIDE.elf  > "JerryRigIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+  22572	     20	   3340	  25932	   654c	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: JerryRigIDE.list
+ 
+16:25:32 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-size   JerryRigIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22572	     20	   3340	  25932	   654c	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 
+16:26:53 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I"C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "JerryRigIDE.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\STM32L496ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="JerryRigIDE.map" -Wl,--gc-sections -static -L"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: JerryRigIDE.elf
+ 
+arm-none-eabi-size   JerryRigIDE.elf 
+arm-none-eabi-objdump -h -S  JerryRigIDE.elf  > "JerryRigIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+  23936	     60	   3380	  27376	   6af0	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: JerryRigIDE.list
+ 
+16:27:32 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-size   JerryRigIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23936	     60	   3380	  27376	   6af0	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 
+16:34:10 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I"C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "JerryRigIDE.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\STM32L496ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="JerryRigIDE.map" -Wl,--gc-sections -static -L"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: JerryRigIDE.elf
+ 
+arm-none-eabi-size   JerryRigIDE.elf 
+arm-none-eabi-objdump -h -S  JerryRigIDE.elf  > "JerryRigIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+  23936	     60	   3380	  27376	   6af0	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: JerryRigIDE.list
+ 
+16:45:39 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I"C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:79:3: error: 'in_buf_ptr' undeclared (first use in this function)
+   79 |   in_buf_ptr = &adc_val[0];
+      |   ^~~~~~~~~~
+../Core/Src/main.c:79:3: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:79:17: error: 'adc_val' undeclared (first use in this function)
+   79 |   in_buf_ptr = &adc_val[0];
+      |                 ^~~~~~~
+../Core/Src/main.c:80:3: error: 'out_buf_ptr' undeclared (first use in this function)
+   80 |   out_buf_ptr = &dac_val[HALF_BUF_SIZE];// + HALF_BUF_SIZE;
+      |   ^~~~~~~~~~~
+../Core/Src/main.c:80:18: error: 'dac_val' undeclared (first use in this function)
+   80 |   out_buf_ptr = &dac_val[HALF_BUF_SIZE];// + HALF_BUF_SIZE;
+      |                  ^~~~~~~
+../Core/Src/main.c:80:26: error: 'HALF_BUF_SIZE' undeclared (first use in this function)
+   80 |   out_buf_ptr = &dac_val[HALF_BUF_SIZE];// + HALF_BUF_SIZE;
+      |                          ^~~~~~~~~~~~~
+../Core/Src/main.c:81:3: error: 'flag' undeclared (first use in this function)
+   81 |   flag=1;
+      |   ^~~~
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:86:3: error: 'in_buf_ptr' undeclared (first use in this function)
+   86 |   in_buf_ptr = &adc_val[HALF_BUF_SIZE];// + HALF_BUF_SIZE;
+      |   ^~~~~~~~~~
+../Core/Src/main.c:86:17: error: 'adc_val' undeclared (first use in this function)
+   86 |   in_buf_ptr = &adc_val[HALF_BUF_SIZE];// + HALF_BUF_SIZE;
+      |                 ^~~~~~~
+../Core/Src/main.c:86:25: error: 'HALF_BUF_SIZE' undeclared (first use in this function)
+   86 |   in_buf_ptr = &adc_val[HALF_BUF_SIZE];// + HALF_BUF_SIZE;
+      |                         ^~~~~~~~~~~~~
+../Core/Src/main.c:87:3: error: 'out_buf_ptr' undeclared (first use in this function)
+   87 |   out_buf_ptr = &dac_val[0];
+      |   ^~~~~~~~~~~
+../Core/Src/main.c:87:18: error: 'dac_val' undeclared (first use in this function)
+   87 |   out_buf_ptr = &dac_val[0];
+      |                  ^~~~~~~
+../Core/Src/main.c:88:3: error: 'flag' undeclared (first use in this function)
+   88 |   flag=1;
+      |   ^~~~
+../Core/Src/main.c: In function 'process_data':
+../Core/Src/main.c:92:18: error: 'HALF_BUF_SIZE' undeclared (first use in this function)
+   92 |   for (int i=0;i<HALF_BUF_SIZE;i++) {
+      |                  ^~~~~~~~~~~~~
+../Core/Src/main.c:93:5: error: 'out_buf_ptr' undeclared (first use in this function)
+   93 |     out_buf_ptr[i]=in_buf_ptr[i];
+      |     ^~~~~~~~~~~
+../Core/Src/main.c:93:20: error: 'in_buf_ptr' undeclared (first use in this function)
+   93 |     out_buf_ptr[i]=in_buf_ptr[i];
+      |                    ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:137:41: error: 'adc_val' undeclared (first use in this function)
+  137 |   HAL_ADC_Start_DMA(&hadc1, (uint32_t*) adc_val, FULL_BUF_SIZE);
+      |                                         ^~~~~~~
+../Core/Src/main.c:137:50: error: 'FULL_BUF_SIZE' undeclared (first use in this function)
+  137 |   HAL_ADC_Start_DMA(&hadc1, (uint32_t*) adc_val, FULL_BUF_SIZE);
+      |                                                  ^~~~~~~~~~~~~
+../Core/Src/main.c:138:56: error: 'dac_val' undeclared (first use in this function)
+  138 |   HAL_DAC_Start_DMA(&hdac1, DAC_CHANNEL_1, (uint32_t*) dac_val, FULL_BUF_SIZE, DAC_ALIGN_12B_R);
+      |                                                        ^~~~~~~
+../Core/Src/main.c:148:15: error: 'flag' undeclared (first use in this function)
+  148 |           if (flag) {
+      |               ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:46:20 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I"C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "JerryRigIDE.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\STM32L496ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="JerryRigIDE.map" -Wl,--gc-sections -static -L"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: JerryRigIDE.elf
+ 
+arm-none-eabi-size   JerryRigIDE.elf 
+arm-none-eabi-objdump -h -S  JerryRigIDE.elf  > "JerryRigIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+  26556	     60	   5436	  32052	   7d34	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: JerryRigIDE.list
+ 
+16:46:44 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I"C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "JerryRigIDE.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\STM32L496ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="JerryRigIDE.map" -Wl,--gc-sections -static -L"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: JerryRigIDE.elf
+ 
+arm-none-eabi-size   JerryRigIDE.elf 
+arm-none-eabi-objdump -h -S  JerryRigIDE.elf  > "JerryRigIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+  26484	     60	   5436	  31980	   7cec	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: JerryRigIDE.list
+ 
+22:54:30 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I"C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'process_data':
+../Core/Src/main.c:261:36: error: 'WAVE_LUT' undeclared (first use in this function); did you mean 'Wave_LUT'?
+  261 |     out_buf_ptr[i]=in_buf_ptr[i] * WAVE_LUT[counter];
+      |                                    ^~~~~~~~
+      |                                    Wave_LUT
+../Core/Src/main.c:261:36: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+22:54:53 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I"C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "JerryRigIDE.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\STM32L496ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="JerryRigIDE.map" -Wl,--gc-sections -static -L"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: JerryRigIDE.elf
+ 
+arm-none-eabi-size   JerryRigIDE.elf 
+arm-none-eabi-objdump -h -S  JerryRigIDE.elf  > "JerryRigIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+  26532	   9276	   5444	  41252	   a124	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: JerryRigIDE.list
+ 
+22:56:25 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I"C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "JerryRigIDE.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\STM32L496ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="JerryRigIDE.map" -Wl,--gc-sections -static -L"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: JerryRigIDE.elf
+ 
+arm-none-eabi-size   JerryRigIDE.elf 
+arm-none-eabi-objdump -h -S  JerryRigIDE.elf  > "JerryRigIDE.list"
+   text	   data	    bss	    dec	    hex	filename
+  26512	     60	   5444	  32016	   7d10	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: JerryRigIDE.list
+ 
+23:00:16 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-size   JerryRigIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26512	     60	   5444	  32016	   7d10	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 

@@ -1,0 +1,10 @@
+23:00:16 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+make -j12 all 
+arm-none-eabi-size   JerryRigIDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26512	     60	   5444	  32016	   7d10	JerryRigIDE.elf
+Finished building: default.size.stdout
+ 
+
+23:00:16 Build Finished. 0 errors, 0 warnings. (took 366ms)
+
