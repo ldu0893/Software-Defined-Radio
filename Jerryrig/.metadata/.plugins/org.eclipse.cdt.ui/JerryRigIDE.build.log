@@ -1,10 +1,51 @@
-23:00:16 **** Incremental Build of configuration Debug for project JerryRigIDE ****
+17:07:33 **** Incremental Build of configuration Debug for project JerryRigIDE ****
 make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DARM_MATH_CM4 -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I"C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include" -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:39: warning: passing argument 1 of 'arm_rfft_fast_init_f32' from incompatible pointer type [-Wincompatible-pointer-types]
+  144 |         status=arm_rfft_fast_init_f32(&varInstCfftF32,FFT_SIZE);
+      |                                       ^~~~~~~~~~~~~~~
+      |                                       |
+      |                                       arm_cfft_instance_f32 *
+In file included from ../Core/Src/main.c:24:
+C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include/arm_math.h:2368:39: note: expected 'arm_rfft_fast_instance_f32 *' but argument is of type 'arm_cfft_instance_f32 *'
+ 2368 |          arm_rfft_fast_instance_f32 * S,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+../Core/Src/main.c:146:27: warning: passing argument 1 of 'arm_rfft_fast_f32' from incompatible pointer type [-Wincompatible-pointer-types]
+  146 |         arm_rfft_fast_f32(&varInstCfftF32, adc_val, outtest, 0);
+      |                           ^~~~~~~~~~~~~~~
+      |                           |
+      |                           arm_cfft_instance_f32 *
+In file included from ../Core/Src/main.c:24:
+C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include/arm_math.h:2389:38: note: expected 'arm_rfft_fast_instance_f32 *' but argument is of type 'arm_cfft_instance_f32 *'
+ 2389 |         arm_rfft_fast_instance_f32 * S,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+../Core/Src/main.c:146:44: warning: passing argument 2 of 'arm_rfft_fast_f32' from incompatible pointer type [-Wincompatible-pointer-types]
+  146 |         arm_rfft_fast_f32(&varInstCfftF32, adc_val, outtest, 0);
+      |                                            ^~~~~~~
+      |                                            |
+      |                                            uint32_t * {aka long unsigned int *}
+In file included from ../Core/Src/main.c:24:
+C:/Users/ldu08/OneDrive/Documents/Github/Software-Defined-Radio/Jerryrig/JerryRigIDE/Drivers/CMSIS/DSP/Include/arm_math.h:2390:21: note: expected 'float32_t *' {aka 'float *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+ 2390 |         float32_t * p, float32_t * pOut,
+      |         ~~~~~~~~~~~~^
+../Core/Src/main.c:142:19: warning: unused variable 'maxValue' [-Wunused-variable]
+  142 |         float32_t maxValue;
+      |                   ^~~~~~~~
+../Core/Src/main.c:141:20: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  141 |         arm_status status;
+      |                    ^~~~~~
+arm-none-eabi-gcc -o "JerryRigIDE.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\STM32L496ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="JerryRigIDE.map" -Wl,--gc-sections -static -L"C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\Drivers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: JerryRigIDE.elf
+ 
 arm-none-eabi-size   JerryRigIDE.elf 
+arm-none-eabi-objdump -h -S  JerryRigIDE.elf  > "JerryRigIDE.list"
    text	   data	    bss	    dec	    hex	filename
-  26512	     60	   5444	  32016	   7d10	JerryRigIDE.elf
+ 108472	     60	  23884	 132416	  20540	JerryRigIDE.elf
 Finished building: default.size.stdout
  
+Finished building: JerryRigIDE.list
+ 
 
-23:00:16 Build Finished. 0 errors, 0 warnings. (took 366ms)
+17:07:35 Build Finished. 0 errors, 5 warnings. (took 1s.412ms)
 

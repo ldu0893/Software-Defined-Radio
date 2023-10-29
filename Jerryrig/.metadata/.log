@@ -652,3 +652,22 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchWindow.g
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2023-10-24 16:37:48.833 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-24 16:37:53.894
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-24 16:37:53.912
+!MESSAGE Log4j2 initialized with config file C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-24 16:38:00.203
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-24 16:38:06.774
+!MESSAGE Indexed 'JerryRigIDE' (30 sources, 135 headers) in 6.27 sec: 18,423 declarations; 99,440 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.14%)

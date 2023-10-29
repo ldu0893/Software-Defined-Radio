@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
   27:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****      ==============================
   28:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****       (+) When Dual mode is enabled (i.e. DAC Channel1 and Channel2 are used simultaneously) :
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****           Use HAL_DACEx_DualGetValue() to get digital data to be converted and use
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 2
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 2
 
 
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****           HAL_DACEx_DualSetValue() to set digital value to converted simultaneously in
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
   84:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****       (+) Start conversion.
   85:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****       (+) Stop conversion.
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****       (+) Start conversion and enable DMA transfer.
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 3
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 3
 
 
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****       (+) Stop conversion and disable DMA transfer.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
   44 0006 1AD0     		beq	.L3
  120:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   /* Check the parameters */
   45              		.loc 1 120 1 discriminator 2 view .LVU7
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 4
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 4
 
 
   46 0008 10B5     		push	{r4, lr}
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
   84              	.LVL4:
   85              	.L3:
   86              		.cfi_def_cfa_offset 0
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 5
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 5
 
 
   87              		.cfi_restore 4
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  172:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   assert_param(IS_DAC_LFSR_UNMASK_TRIANGLE_AMPLITUDE(Amplitude));
  113              		.loc 1 172 3 view .LVU27
  173:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** 
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 6
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 6
 
 
  174:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   /* Process locked */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  153              		.loc 1 187 3 discriminator 2 view .LVU42
  154 0038 0020     		movs	r0, #0
  155 003a 5871     		strb	r0, [r3, #5]
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 7
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 7
 
 
  156              		.loc 1 187 3 discriminator 2 view .LVU43
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  184              		@ args = 0, pretend = 0, frame = 0
  185              		@ frame_needed = 0, uses_anonymous_args = 0
  186              		@ link register save eliminated.
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 8
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 8
 
 
  215:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   uint32_t data;
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  214 000e 0020     		movs	r0, #0
  215              	.LVL14:
  216              		.loc 1 241 1 view .LVU66
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 9
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 9
 
 
  217 0010 7047     		bx	lr
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  255              		.thumb_func
  257              	HAL_DACEx_ConvHalfCpltCallbackCh2:
  258              	.LVL18:
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 10
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 10
 
 
  259              	.LFB325:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  286:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   /* NOTE : This function should not be modified, when the callback is needed,
  287:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****             the HAL_DACEx_ErrorCallbackCh2 could be implemented in the user file
  288:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****    */
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 11
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 11
 
 
  289:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** }
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  311:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** /**
  312:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   * @brief  Run the self calibration of one DAC channel.
  313:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   * @param  hdac pointer to a DAC_HandleTypeDef structure that contains
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 12
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 12
 
 
  314:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   *         the configuration information for the specified DAC.
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  348              		.cfi_offset 14, -4
  349 000a 83B0     		sub	sp, sp, #12
  350              		.cfi_def_cfa_offset 48
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 13
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 13
 
 
  351 000c 8946     		mov	r9, r1
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  388 0036 25EA0101 		bic	r1, r5, r1
  389 003a 0160     		str	r1, [r0]
  359:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** 
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 14
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 14
 
 
  360:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****     /* Set mode in MCR  for calibration */
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  386:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** 
  387:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****     /* Enable the selected DAC channel calibration */
  388:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****     /* i.e. set DAC_CR_CENx bit */
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 15
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 15
 
 
  389:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****     SET_BIT((hdac->Instance->CR), (DAC_CR_CEN1 << (Channel & 0x10UL)));
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  412:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****         trimmingvalue += delta;
  445              		.loc 1 412 9 is_stmt 1 view .LVU128
  446              		.loc 1 412 23 is_stmt 0 view .LVU129
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 16
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 16
 
 
  447 007e 2E44     		add	r6, r6, r5
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  419:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****     /* Set candidate trimming */
  420:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****     MODIFY_REG(hdac->Instance->CCR, (DAC_CCR_OTRIM1 << (Channel & 0x10UL)), (trimmingvalue << (Chan
  485              		.loc 1 420 5 is_stmt 1 view .LVU142
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 17
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 17
 
 
  486 00ac 2168     		ldr	r1, [r4]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  524 00e8 1360     		str	r3, [r2]
  437:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** 
  438:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****     sConfig->DAC_TrimmingValue = trimmingvalue;
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 18
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 18
 
 
  525              		.loc 1 438 5 view .LVU153
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  567              	.L33:
  568              		.cfi_def_cfa_offset 48
  569              		.cfi_offset 4, -36
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 19
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 19
 
 
  570              		.cfi_offset 5, -32
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  605              		@ args = 0, pretend = 0, frame = 0
  606              		@ frame_needed = 0, uses_anonymous_args = 0
  467:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   HAL_StatusTypeDef status = HAL_OK;
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 20
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 20
 
 
  607              		.loc 1 467 3 view .LVU168
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  485:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** 
  486:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****     /* Update trimming mode */
  487:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****     sConfig->DAC_UserTrimming = DAC_TRIMMING_USER;
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 21
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 21
 
 
  643              		.loc 1 487 5 is_stmt 1 discriminator 2 view .LVU181
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  495:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** 
  496:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** /**
  497:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   * @brief  Return the DAC trimming value.
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 22
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 22
 
 
  498:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   * @param  hdac DAC handle
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  518:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   */
  519:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** 
  520:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** #if defined (STM32L431xx) || defined (STM32L432xx) || defined (STM32L433xx) || defined (STM32L442xx
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 23
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 23
 
 
  521:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****     defined (STM32L471xx) || defined (STM32L475xx) || defined (STM32L476xx) || defined (STM32L485xx
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  745              	.LVL56:
  746              		.loc 1 555 1 view .LVU209
  747 000a 7047     		bx	lr
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 24
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 24
 
 
  748              		.cfi_endproc
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  770              		.loc 1 589 3 is_stmt 1 view .LVU212
  771              		.loc 1 589 22 is_stmt 0 view .LVU213
  772 0002 846A     		ldr	r4, [r0, #40]
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 25
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 25
 
 
  773              	.LVL58:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  810              	.LVL62:
  609:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   /* Conversion complete callback */
  610:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** #if (USE_HAL_DAC_REGISTER_CALLBACKS == 1)
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 26
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 26
 
 
  611:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   hdac->ConvHalfCpltCallbackCh2(hdac);
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  849 000a 2361     		str	r3, [r4, #16]
  629:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** 
  630:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c **** #if (USE_HAL_DAC_REGISTER_CALLBACKS == 1)
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 27
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 27
 
 
  631:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c ****   hdac->ErrorCallbackCh2(hdac);
@@ -1592,39 +1592,39 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 1
  872              		.file 6 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h"
  873              		.file 7 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dac.h"
  874              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s 			page 28
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s 			page 28
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_dac_ex.c
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:20     .text.HAL_DACEx_TriangleWaveGenerate:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:26     .text.HAL_DACEx_TriangleWaveGenerate:0000000000000000 HAL_DACEx_TriangleWaveGenerate
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:97     .text.HAL_DACEx_NoiseWaveGenerate:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:103    .text.HAL_DACEx_NoiseWaveGenerate:0000000000000000 HAL_DACEx_NoiseWaveGenerate
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:173    .text.HAL_DACEx_DualSetValue:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:179    .text.HAL_DACEx_DualSetValue:0000000000000000 HAL_DACEx_DualSetValue
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:230    .text.HAL_DACEx_ConvCpltCallbackCh2:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:236    .text.HAL_DACEx_ConvCpltCallbackCh2:0000000000000000 HAL_DACEx_ConvCpltCallbackCh2
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:251    .text.HAL_DACEx_ConvHalfCpltCallbackCh2:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:257    .text.HAL_DACEx_ConvHalfCpltCallbackCh2:0000000000000000 HAL_DACEx_ConvHalfCpltCallbackCh2
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:272    .text.HAL_DACEx_ErrorCallbackCh2:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:278    .text.HAL_DACEx_ErrorCallbackCh2:0000000000000000 HAL_DACEx_ErrorCallbackCh2
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:293    .text.HAL_DACEx_DMAUnderrunCallbackCh2:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:299    .text.HAL_DACEx_DMAUnderrunCallbackCh2:0000000000000000 HAL_DACEx_DMAUnderrunCallbackCh2
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:314    .text.HAL_DACEx_SelfCalibrate:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:320    .text.HAL_DACEx_SelfCalibrate:0000000000000000 HAL_DACEx_SelfCalibrate
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:594    .text.HAL_DACEx_SetUserTrimming:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:600    .text.HAL_DACEx_SetUserTrimming:0000000000000000 HAL_DACEx_SetUserTrimming
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:681    .text.HAL_DACEx_GetTrimOffset:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:687    .text.HAL_DACEx_GetTrimOffset:0000000000000000 HAL_DACEx_GetTrimOffset
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:717    .text.HAL_DACEx_DualGetValue:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:723    .text.HAL_DACEx_DualGetValue:0000000000000000 HAL_DACEx_DualGetValue
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:752    .text.DAC_DMAConvCpltCh2:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:758    .text.DAC_DMAConvCpltCh2:0000000000000000 DAC_DMAConvCpltCh2
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:791    .text.DAC_DMAHalfConvCpltCh2:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:797    .text.DAC_DMAHalfConvCpltCh2:0000000000000000 DAC_DMAHalfConvCpltCh2
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:823    .text.DAC_DMAErrorCh2:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccJ8ihJa.s:829    .text.DAC_DMAErrorCh2:0000000000000000 DAC_DMAErrorCh2
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:20     .text.HAL_DACEx_TriangleWaveGenerate:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:26     .text.HAL_DACEx_TriangleWaveGenerate:0000000000000000 HAL_DACEx_TriangleWaveGenerate
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:97     .text.HAL_DACEx_NoiseWaveGenerate:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:103    .text.HAL_DACEx_NoiseWaveGenerate:0000000000000000 HAL_DACEx_NoiseWaveGenerate
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:173    .text.HAL_DACEx_DualSetValue:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:179    .text.HAL_DACEx_DualSetValue:0000000000000000 HAL_DACEx_DualSetValue
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:230    .text.HAL_DACEx_ConvCpltCallbackCh2:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:236    .text.HAL_DACEx_ConvCpltCallbackCh2:0000000000000000 HAL_DACEx_ConvCpltCallbackCh2
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:251    .text.HAL_DACEx_ConvHalfCpltCallbackCh2:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:257    .text.HAL_DACEx_ConvHalfCpltCallbackCh2:0000000000000000 HAL_DACEx_ConvHalfCpltCallbackCh2
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:272    .text.HAL_DACEx_ErrorCallbackCh2:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:278    .text.HAL_DACEx_ErrorCallbackCh2:0000000000000000 HAL_DACEx_ErrorCallbackCh2
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:293    .text.HAL_DACEx_DMAUnderrunCallbackCh2:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:299    .text.HAL_DACEx_DMAUnderrunCallbackCh2:0000000000000000 HAL_DACEx_DMAUnderrunCallbackCh2
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:314    .text.HAL_DACEx_SelfCalibrate:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:320    .text.HAL_DACEx_SelfCalibrate:0000000000000000 HAL_DACEx_SelfCalibrate
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:594    .text.HAL_DACEx_SetUserTrimming:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:600    .text.HAL_DACEx_SetUserTrimming:0000000000000000 HAL_DACEx_SetUserTrimming
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:681    .text.HAL_DACEx_GetTrimOffset:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:687    .text.HAL_DACEx_GetTrimOffset:0000000000000000 HAL_DACEx_GetTrimOffset
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:717    .text.HAL_DACEx_DualGetValue:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:723    .text.HAL_DACEx_DualGetValue:0000000000000000 HAL_DACEx_DualGetValue
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:752    .text.DAC_DMAConvCpltCh2:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:758    .text.DAC_DMAConvCpltCh2:0000000000000000 DAC_DMAConvCpltCh2
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:791    .text.DAC_DMAHalfConvCpltCh2:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:797    .text.DAC_DMAHalfConvCpltCh2:0000000000000000 DAC_DMAHalfConvCpltCh2
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:823    .text.DAC_DMAErrorCh2:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\ccIB8tUx.s:829    .text.DAC_DMAErrorCh2:0000000000000000 DAC_DMAErrorCh2
 
 UNDEFINED SYMBOLS
 HAL_Delay

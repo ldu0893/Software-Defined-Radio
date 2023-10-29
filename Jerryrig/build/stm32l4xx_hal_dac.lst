@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
   27:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   ==============================================================================
   28:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     [..]
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       *** DAC Channels ***
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 2
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 2
 
 
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       ====================
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
   84:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       When a DAC channel is used (ex channel1 on PA4) and the other is not
   85:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       (ex channel2 on PA5 is configured in Analog and disabled).
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       Channel1 may disturb channel2 as coupling effect.
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 3
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 3
 
 
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       Note that there is no coupling on channel2 as soon as channel2 is turned on.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  141:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****        [..]
  142:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****        Both DAC channels can be used to generate
  143:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****          (#) Noise wave
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 4
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 4
 
 
  144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****          (#) Triangle wave
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  198:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     (@) For Dual mode and specific signal (Triangle and noise) generation please
  199:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****         refer to Extended Features Driver description
  200:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 5
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 5
 
 
  201:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****                       ##### How to use this driver #####
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  255:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       (+) ErrorCallbackCh1        : callback when an error occurs on Ch1.
  256:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       (+) DMAUnderrunCallbackCh1  : callback when an underrun error occurs on Ch1.
  257:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       (+) ConvCpltCallbackCh2     : callback when a half transfer is completed on Ch2.
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 6
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 6
 
 
  258:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       (+) ConvHalfCpltCallbackCh2 : callback when a transfer is completed on Ch2.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  312:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       (@) You can refer to the DAC HAL driver header file for more useful macros
  313:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  314:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****  @endverbatim
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 7
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 7
 
 
  315:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   ******************************************************************************
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  369:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  370:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** /**
  371:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @brief  Initialize the DAC peripheral according to the specified parameters
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 8
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 8
 
 
  372:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   *         in the DAC_InitStruct and initialize the associated handle.
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  426:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  427:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   /* Initialize the DAC state*/
  428:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   hdac->State = HAL_DAC_STATE_BUSY;
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 9
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 9
 
 
  429:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  483:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** }
  484:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  485:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** /**
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 10
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 10
 
 
  486:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @brief  Initialize the DAC MSP.
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  387:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   {
   66              		.loc 1 387 11 is_stmt 0 view .LVU9
   67 0006 0379     		ldrb	r3, [r0, #4]	@ zero_extendqisi2
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 11
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 11
 
 
  387:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   {
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  107              		.cfi_endproc
  108              	.LFE321:
  110              		.section	.text.HAL_DAC_MspDeInit,"ax",%progbits
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 12
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 12
 
 
  111              		.align	1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  148              		.loc 1 447 1 view .LVU31
  149 0002 10B5     		push	{r4, lr}
  150              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 13
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 13
 
 
  151              		.cfi_offset 4, -8
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  191              		.global	HAL_DAC_Start
  192              		.syntax unified
  193              		.thumb
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 14
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 14
 
 
  194              		.thumb_func
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  209 0004 2CD0     		beq	.L23
  550:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   /* Check the parameters */
  210              		.loc 1 550 1 is_stmt 0 discriminator 2 view .LVU51
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 15
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 15
 
 
  211 0006 10B4     		push	{r4}
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  233              		.loc 1 587 5 is_stmt 0 discriminator 2 view .LVU59
  234 0022 89B9     		cbnz	r1, .L21
  588:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   {
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 16
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 16
 
 
  589:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     /* Check if software trigger enabled */
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  622:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  623:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   /* Return function status */
  624:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   return HAL_OK;
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 17
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 17
 
 
  256              		.loc 1 624 3 view .LVU70
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  302              		.global	HAL_DAC_Stop
  303              		.syntax unified
  304              		.thumb
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 18
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 18
 
 
  305              		.thumb_func
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  335 0018 0020     		movs	r0, #0
  336              	.LVL21:
  337              		.loc 1 650 1 view .LVU90
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 19
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 19
 
 
  338 001a 5DF8044B 		ldr	r4, [sp], #4
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  690:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  691:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   /* Set the DMA error callback for channel1 */
  692:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   hdac->DMA_Handle1->XferErrorCallback = DAC_DMAErrorCh1;
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 20
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 20
 
 
  693:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  747:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @brief  Enables DAC and starts conversion of channel.
  748:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @param  hdac pointer to a DAC_HandleTypeDef structure that contains
  749:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   *         the configuration information for the specified DAC.
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 21
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 21
 
 
  750:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @param  Channel The selected DAC channel.
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  384              		.loc 1 774 3 is_stmt 1 discriminator 2 view .LVU101
  385 0010 0120     		movs	r0, #1
  386 0012 6071     		strb	r0, [r4, #5]
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 22
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 22
 
 
  387              		.loc 1 774 3 discriminator 2 view .LVU102
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  421 003a 1DD0     		beq	.L34
  422 003c 082A     		cmp	r2, #8
  423 003e 1ED0     		beq	.L35
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 23
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 23
 
 
  424 0040 BAB1     		cbz	r2, .L46
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  845:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  846:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   /* Enable the DMA channel */
  847:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   if (Channel == DAC_CHANNEL_1)
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 24
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 24
 
 
  428              		.loc 1 847 3 view .LVU118
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  459 006a AA40     		lsls	r2, r2, r5
  460 006c 1343     		orrs	r3, r3, r2
  461 006e 0B60     		str	r3, [r1]
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 25
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 25
 
 
  462              	.LVL29:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  495 0082 DFE7     		b	.L36
  496              	.LVL36:
  497              	.L33:
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 26
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 26
 
 
  815:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  537 00b2 C7E7     		b	.L36
  538              	.LVL38:
  539              	.L37:
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 27
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 27
 
 
  835:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****         break;
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  774:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  580              		.loc 1 774 3 view .LVU172
  581 00dc 0220     		movs	r0, #2
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 28
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 28
 
 
  582 00de C7E7     		b	.L32
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  616              		.loc 1 901 3 view .LVU176
  617              		.loc 1 901 7 is_stmt 0 view .LVU177
  618 0004 0068     		ldr	r0, [r0]
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 29
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 29
 
 
  619              	.LVL45:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  924:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  925:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     /* Disable the DAC DMA underrun interrupt */
  926:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     __HAL_DAC_DISABLE_IT(hdac, DAC_IT_DMAUDR2);
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 30
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 30
 
 
  927:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   }
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  950:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @brief  Handles DAC interrupt request
  951:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   *         This function uses the interruption of DMA
  952:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   *         underrun.
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 31
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 31
 
 
  953:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @param  hdac pointer to a DAC_HandleTypeDef structure that contains
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1007:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       hdac->DMAUnderrunCallbackCh2(hdac);
 1008:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** #else
 1009:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       HAL_DACEx_DMAUnderrunCallbackCh2(hdac);
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 32
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 32
 
 
 1010:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** #endif /* USE_HAL_DAC_REGISTER_CALLBACKS */
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  700              		.loc 1 1044 23 is_stmt 0 view .LVU201
  701 0008 0068     		ldr	r0, [r0]
  702              	.LVL50:
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 33
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 33
 
 
  703              		.loc 1 1044 7 view .LVU202
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  740 0024 0199     		ldr	r1, [sp, #4]
  741              	.LVL54:
 1051:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   }
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 34
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 34
 
 
  742              		.loc 1 1051 9 view .LVU216
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1076:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
 1077:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** /**
 1078:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @brief  Conversion half DMA transfer callback in non-blocking mode for Channel1
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 35
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 35
 
 
 1079:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @param  hdac pointer to a DAC_HandleTypeDef structure that contains
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1133:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   ==============================================================================
 1134:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****              ##### Peripheral Control functions #####
 1135:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   ==============================================================================
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 36
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 36
 
 
 1136:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     [..]  This section provides functions allowing to:
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1190:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   *         must be the same at each call.
 1191:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   *         (or DAC_HIGH_FREQUENCY_INTERFACE_MODE_AUTOMATIC self detect).
 1192:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @param  hdac pointer to a DAC_HandleTypeDef structure that contains
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 37
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 37
 
 
 1193:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   *         the configuration information for the specified DAC.
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1247:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       while (((hdac->Instance->SR) & DAC_SR_BWST1) != 0UL)
 1248:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       {
 1249:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****         /* Check for the Timeout */
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 38
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 38
 
 
 1250:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****         if ((HAL_GetTick() - tickstart) > TIMEOUT_DAC_CALIBCONFIG)
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1304:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   {
 1305:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     /* Get the DAC CCR value */
 1306:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     tmpreg1 = hdac->Instance->CCR;
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 39
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 39
 
 
 1307:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     /* Clear trimming value */
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1361:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       else
 1362:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       {
 1363:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****         /* High frequency disable when HCLK frequency higher than 80  */
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 40
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 40
 
 
 1364:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****         tmpreg1 &= ~(DAC_CR_HFSEL);
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1418:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
 1419:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** /**
 1420:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @brief  Return the DAC error code
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 41
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 41
 
 
 1421:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   * @param  hdac pointer to a DAC_HandleTypeDef structure that contains
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1475:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     hdac->ErrorCode |= HAL_DAC_ERROR_INVALID_CALLBACK;
 1476:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     return HAL_ERROR;
 1477:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   }
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 42
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 42
 
 
 1478:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1532:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       hdac->MspDeInitCallback = pCallback;
 1533:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       break;
 1534:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     default :
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 43
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 43
 
 
 1535:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       /* Update the error code */
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1589:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       hdac->ConvHalfCpltCallbackCh1 = HAL_DAC_ConvHalfCpltCallbackCh1;
 1590:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       break;
 1591:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     case HAL_DAC_CH1_ERROR_ID :
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 44
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 44
 
 
 1592:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       hdac->ErrorCallbackCh1 = HAL_DAC_ErrorCallbackCh1;
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1646:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       /* update return status */
 1647:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       status =  HAL_ERROR;
 1648:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****       break;
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 45
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 45
 
 
 1649:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     }
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  783              		.loc 1 1702 1 is_stmt 1 view -0
  784              		.cfi_startproc
  785              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 46
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 46
 
 
  786              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  829 0000 7047     		bx	lr
  830              		.cfi_endproc
  831              	.LFE332:
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 47
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 47
 
 
  833              		.section	.text.DAC_DMAHalfConvCpltCh1,"ax",%progbits
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  873              	.LVL66:
  874              	.LFB333:
 1100:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   /* Prevent unused argument(s) compilation warning */
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 48
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 48
 
 
  875              		.loc 1 1100 1 is_stmt 1 view -0
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1745:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   hdac->ErrorCallbackCh1(hdac);
 1746:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** #else
 1747:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   HAL_DAC_ErrorCallbackCh1(hdac);
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 49
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 49
 
 
  914              		.loc 1 1747 3 is_stmt 1 view .LVU249
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  964              		@ frame_needed = 0, uses_anonymous_args = 0
  958:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   if (__HAL_DAC_GET_IT_SOURCE(hdac, DAC_IT_DMAUDR1))
  965              		.loc 1 958 1 is_stmt 0 view .LVU259
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 50
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 50
 
 
  966 0000 10B5     		push	{r4, lr}
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1005              		.loc 1 965 19 is_stmt 0 view .LVU274
  1006 002a 0422     		movs	r2, #4
  1007 002c 0271     		strb	r2, [r0, #4]
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 51
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 51
 
 
  968:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1051              		.section	.text.HAL_DAC_GetValue,"ax",%progbits
  1052              		.align	1
  1053              		.global	HAL_DAC_GetValue
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 52
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 52
 
 
  1054              		.syntax unified
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1099              	.LVL81:
  1100              	.LFB336:
 1202:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   uint32_t tmpreg1;
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 53
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 53
 
 
  1101              		.loc 1 1202 1 is_stmt 1 view -0
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1137 000e 1646     		mov	r6, r2
 1232:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  1138              		.loc 1 1232 3 discriminator 2 view .LVU318
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 54
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 54
 
 
  1139 0010 0123     		movs	r3, #1
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1176              		.loc 1 1324 3 is_stmt 1 view .LVU335
 1324:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   /* Calculate MCR register value depending on DAC_Channel */
  1177              		.loc 1 1324 21 is_stmt 0 view .LVU336
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 55
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 55
 
 
  1178 0036 2B68     		ldr	r3, [r5]
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1216              		.loc 1 1336 87 is_stmt 0 view .LVU352
  1217 005a 40F6FC73 		movw	r3, #4092
  1218 005e 9340     		lsls	r3, r3, r2
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 56
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 56
 
 
 1336:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****   /* Configure for the selected DAC channel: trigger */
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1256 0082 6071     		strb	r0, [r4, #5]
 1380:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** 
  1257              		.loc 1 1380 3 view .LVU370
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 57
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 57
 
 
 1383:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c **** }
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1295              		.loc 1 1279 20 is_stmt 0 view .LVU387
  1296 00a0 2368     		ldr	r3, [r4]
 1279:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****           {
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 58
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 58
 
 
  1297              		.loc 1 1279 30 view .LVU388
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1334              		.loc 1 1253 30 view .LVU405
  1335 00cc 5B6B     		ldr	r3, [r3, #52]
 1253:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****           {
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 59
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 59
 
 
  1336              		.loc 1 1253 13 view .LVU406
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1378 010e 9140     		lsls	r1, r1, r2
  1379 0110 23EA0103 		bic	r3, r3, r1
  1380 0114 296A     		ldr	r1, [r5, #32]
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 60
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 60
 
 
  1381 0116 9140     		lsls	r1, r1, r2
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
 1312:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c ****     /* Write to DAC CCR */
  1420              		.loc 1 1312 24 is_stmt 0 view .LVU434
  1421 013e 8340     		lsls	r3, r3, r0
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 61
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 61
 
 
  1422              	.LVL112:
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1469              		.syntax unified
  1470              		.thumb
  1471              		.thumb_func
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 62
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 62
 
 
  1473              	HAL_DAC_GetError:
@@ -3691,54 +3691,54 @@ ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 1
  1497              		.file 7 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dac.h"
  1498              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  1499              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dac_ex.h"
-ARM GAS  C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s 			page 63
+ARM GAS  C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s 			page 63
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_dac.c
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:20     .text.HAL_DAC_MspInit:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:26     .text.HAL_DAC_MspInit:0000000000000000 HAL_DAC_MspInit
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:42     .text.HAL_DAC_Init:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:48     .text.HAL_DAC_Init:0000000000000000 HAL_DAC_Init
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:111    .text.HAL_DAC_MspDeInit:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:117    .text.HAL_DAC_MspDeInit:0000000000000000 HAL_DAC_MspDeInit
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:132    .text.HAL_DAC_DeInit:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:138    .text.HAL_DAC_DeInit:0000000000000000 HAL_DAC_DeInit
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:190    .text.HAL_DAC_Start:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:196    .text.HAL_DAC_Start:0000000000000000 HAL_DAC_Start
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:301    .text.HAL_DAC_Stop:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:307    .text.HAL_DAC_Stop:0000000000000000 HAL_DAC_Stop
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:346    .text.HAL_DAC_Start_DMA:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:352    .text.HAL_DAC_Start_DMA:0000000000000000 HAL_DAC_Start_DMA
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:586    .text.HAL_DAC_Start_DMA:00000000000000e0 $d
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:780    .text.DAC_DMAConvCpltCh1:0000000000000000 DAC_DMAConvCpltCh1
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:840    .text.DAC_DMAHalfConvCpltCh1:0000000000000000 DAC_DMAHalfConvCpltCh1
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:893    .text.DAC_DMAErrorCh1:0000000000000000 DAC_DMAErrorCh1
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:596    .text.HAL_DAC_Stop_DMA:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:602    .text.HAL_DAC_Stop_DMA:0000000000000000 HAL_DAC_Stop_DMA
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:672    .text.HAL_DAC_SetValue:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:678    .text.HAL_DAC_SetValue:0000000000000000 HAL_DAC_SetValue
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:753    .text.HAL_DAC_ConvCpltCallbackCh1:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:759    .text.HAL_DAC_ConvCpltCallbackCh1:0000000000000000 HAL_DAC_ConvCpltCallbackCh1
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:774    .text.DAC_DMAConvCpltCh1:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:813    .text.HAL_DAC_ConvHalfCpltCallbackCh1:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:819    .text.HAL_DAC_ConvHalfCpltCallbackCh1:0000000000000000 HAL_DAC_ConvHalfCpltCallbackCh1
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:834    .text.DAC_DMAHalfConvCpltCh1:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:866    .text.HAL_DAC_ErrorCallbackCh1:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:872    .text.HAL_DAC_ErrorCallbackCh1:0000000000000000 HAL_DAC_ErrorCallbackCh1
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:887    .text.DAC_DMAErrorCh1:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:931    .text.HAL_DAC_DMAUnderrunCallbackCh1:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:937    .text.HAL_DAC_DMAUnderrunCallbackCh1:0000000000000000 HAL_DAC_DMAUnderrunCallbackCh1
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:952    .text.HAL_DAC_IRQHandler:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:958    .text.HAL_DAC_IRQHandler:0000000000000000 HAL_DAC_IRQHandler
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:1052   .text.HAL_DAC_GetValue:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:1058   .text.HAL_DAC_GetValue:0000000000000000 HAL_DAC_GetValue
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:1092   .text.HAL_DAC_ConfigChannel:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:1098   .text.HAL_DAC_ConfigChannel:0000000000000000 HAL_DAC_ConfigChannel
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:1443   .text.HAL_DAC_GetState:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:1449   .text.HAL_DAC_GetState:0000000000000000 HAL_DAC_GetState
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:1467   .text.HAL_DAC_GetError:0000000000000000 $t
-C:\Users\ldu08\AppData\Local\Temp\ccLHW1Yb.s:1473   .text.HAL_DAC_GetError:0000000000000000 HAL_DAC_GetError
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:20     .text.HAL_DAC_MspInit:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:26     .text.HAL_DAC_MspInit:0000000000000000 HAL_DAC_MspInit
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:42     .text.HAL_DAC_Init:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:48     .text.HAL_DAC_Init:0000000000000000 HAL_DAC_Init
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:111    .text.HAL_DAC_MspDeInit:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:117    .text.HAL_DAC_MspDeInit:0000000000000000 HAL_DAC_MspDeInit
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:132    .text.HAL_DAC_DeInit:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:138    .text.HAL_DAC_DeInit:0000000000000000 HAL_DAC_DeInit
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:190    .text.HAL_DAC_Start:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:196    .text.HAL_DAC_Start:0000000000000000 HAL_DAC_Start
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:301    .text.HAL_DAC_Stop:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:307    .text.HAL_DAC_Stop:0000000000000000 HAL_DAC_Stop
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:346    .text.HAL_DAC_Start_DMA:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:352    .text.HAL_DAC_Start_DMA:0000000000000000 HAL_DAC_Start_DMA
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:586    .text.HAL_DAC_Start_DMA:00000000000000e0 $d
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:780    .text.DAC_DMAConvCpltCh1:0000000000000000 DAC_DMAConvCpltCh1
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:840    .text.DAC_DMAHalfConvCpltCh1:0000000000000000 DAC_DMAHalfConvCpltCh1
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:893    .text.DAC_DMAErrorCh1:0000000000000000 DAC_DMAErrorCh1
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:596    .text.HAL_DAC_Stop_DMA:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:602    .text.HAL_DAC_Stop_DMA:0000000000000000 HAL_DAC_Stop_DMA
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:672    .text.HAL_DAC_SetValue:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:678    .text.HAL_DAC_SetValue:0000000000000000 HAL_DAC_SetValue
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:753    .text.HAL_DAC_ConvCpltCallbackCh1:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:759    .text.HAL_DAC_ConvCpltCallbackCh1:0000000000000000 HAL_DAC_ConvCpltCallbackCh1
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:774    .text.DAC_DMAConvCpltCh1:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:813    .text.HAL_DAC_ConvHalfCpltCallbackCh1:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:819    .text.HAL_DAC_ConvHalfCpltCallbackCh1:0000000000000000 HAL_DAC_ConvHalfCpltCallbackCh1
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:834    .text.DAC_DMAHalfConvCpltCh1:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:866    .text.HAL_DAC_ErrorCallbackCh1:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:872    .text.HAL_DAC_ErrorCallbackCh1:0000000000000000 HAL_DAC_ErrorCallbackCh1
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:887    .text.DAC_DMAErrorCh1:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:931    .text.HAL_DAC_DMAUnderrunCallbackCh1:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:937    .text.HAL_DAC_DMAUnderrunCallbackCh1:0000000000000000 HAL_DAC_DMAUnderrunCallbackCh1
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:952    .text.HAL_DAC_IRQHandler:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:958    .text.HAL_DAC_IRQHandler:0000000000000000 HAL_DAC_IRQHandler
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:1052   .text.HAL_DAC_GetValue:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:1058   .text.HAL_DAC_GetValue:0000000000000000 HAL_DAC_GetValue
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:1092   .text.HAL_DAC_ConfigChannel:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:1098   .text.HAL_DAC_ConfigChannel:0000000000000000 HAL_DAC_ConfigChannel
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:1443   .text.HAL_DAC_GetState:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:1449   .text.HAL_DAC_GetState:0000000000000000 HAL_DAC_GetState
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:1467   .text.HAL_DAC_GetError:0000000000000000 $t
+C:\Users\ldu08\AppData\Local\Temp\cc4gxjYw.s:1473   .text.HAL_DAC_GetError:0000000000000000 HAL_DAC_GetError
 
 UNDEFINED SYMBOLS
 HAL_DMA_Start_IT

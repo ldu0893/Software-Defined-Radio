@@ -1,0 +1,31 @@
+!SESSION 2023-10-24 16:36:35.920 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-24 16:37:03.472
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-24 16:37:03.481
+!MESSAGE Log4j2 initialized with config file C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-24 16:37:07.537
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-10-24 16:37:22.470 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-24 16:37:29.545
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-24 16:37:29.547
+!MESSAGE Log4j2 initialized with config file C:\Users\ldu08\OneDrive\Documents\Github\Software-Defined-Radio\Jerryrig\JerryRigIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-24 16:37:32.596
+!MESSAGE Started RMI Server, listening on port 41337

@@ -50,19 +50,22 @@ DMA_HandleTypeDef hdma_dac_ch1;
 UART_HandleTypeDef hlpuart1;
 
 TIM_HandleTypeDef htim6;
+TIM_HandleTypeDef htim7;
 
 PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
 /* USER CODE BEGIN PV */
-uint32_t adc_val[FULL_BUF_SIZE];
-uint32_t dac_val[FULL_BUF_SIZE];
+volatile uint32_t adc_val[FULL_BUF_SIZE];
+volatile uint32_t dac_val[FULL_BUF_SIZE];
 
 uint32_t* in_buf_ptr;
 uint32_t* out_buf_ptr;
+uint32_t out_out_ptr = 0;
 
 int flag = 0;
 int counter = 0;
 int counter_counter = 0;
+
 
 float Wave_LUT[NS] = {
   
@@ -267,6 +270,31 @@ float Wave_LUT[NS] = {
  -0.06279052, -0.05651853, -0.05024432, -0.04396812, -0.03769018,
  -0.03141076, -0.0251301 , -0.01884844, -0.01256604, -0.00628314  
        };
+
+/*
+
+FIR filter designed with
+http://t-filter.appspot.com
+
+sampling frequency: 200000 Hz
+
+* 0 Hz - 16000 Hz
+  gain = 1
+  desired ripple = 5 dB
+  actual ripple = 0 dB
+
+*/
+
+#define FILTER_TAP_NUM 5
+
+static double filter_taps[FILTER_TAP_NUM] = {
+  // -4.4408920985006264e-17,
+  // 4.4408920985006264e-17,
+  1,0,0,0,0
+  // 4.4408920985006264e-17,
+  // -4.4408920985006264e-17
+};
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -279,6 +307,7 @@ static void MX_LPUART1_UART_Init(void);
 static void MX_USB_OTG_FS_PCD_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_TIM6_Init(void);
+static void MX_TIM7_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -286,10 +315,22 @@ static void MX_TIM6_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+uint32_t fir(int);
+
+int numbytes = 0;
+
 void HAL_ADC_ConvHalfCpltCallback(ADC_HandleTypeDef* hadc) {
   //first half of adc buffer is full
   in_buf_ptr = &adc_val[0];
   out_buf_ptr = &dac_val[HALF_BUF_SIZE];// + HALF_BUF_SIZE;
+
+  //numbytes++;
+  //if (numbytes > HALF_BUF_SIZE - 1) numbytes=0;
+  
+
+  //uint32_t test = fir((int)in_buf_ptr[numbytes]);
+  //out_buf_ptr[numbytes] = test;
+
   flag=1;
 }
 
@@ -297,22 +338,80 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc) {
   //second half of adc buffer is full
   in_buf_ptr = &adc_val[HALF_BUF_SIZE];// + HALF_BUF_SIZE;
   out_buf_ptr = &dac_val[0];
+  
+  //numbytes = FULL_BUF_SIZE - __HAL_DMA_GET_COUNTER(hadc1.hdmarx);
+  //numbytes++;
+  //if (numbytes > HALF_BUF_SIZE - 1) numbytes=0;
+
+  //uint32_t test = fir((int)in_buf_ptr[numbytes]);
+  //out_buf_ptr[numbytes] = test;
+
   flag=1;
+}
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
+  if (htim == &htim7) {
+    //alpha+=0.05;
+    //if (alpha > 1) alpha = 0;
+  }
+
+  if (htim == &htim6) {
+    //out_out_ptr++;
+    //if (out_out_ptr > HALF_BUF_SIZE-1) out_out_ptr = 0;
+    // process_data();
+  }
+}
+
+float ema_alpha = 0.1f;
+float ema_out = 0;
+void ema_lpf(float in) {
+  ema_out = ema_alpha * in + (1.0f - ema_alpha) * ema_out;
+}
+
+float firdata[FILTER_TAP_NUM];
+int firptr[FILTER_TAP_NUM];
+int fir_w_ptr = 0;
+
+uint32_t fir(int in) {
+  float in_f = (float)in;
+  float fir_out = 0;
+  for (int i=0;i<FILTER_TAP_NUM;i++) {
+    fir_out += filter_taps[firptr[i]] * firdata[i];
+    firptr[i]++;
+  }
+  firdata[fir_w_ptr] = in_f;
+  firptr[fir_w_ptr] = 0;
+  fir_w_ptr++;
+  if (fir_w_ptr == FILTER_TAP_NUM) fir_w_ptr = 0;
+
+  return (uint32_t) fir_out;
 }
 
 void process_data() {
   for (int i=0;i<HALF_BUF_SIZE;i++) {
-    out_buf_ptr[i]=(float) (in_buf_ptr[i] * 1.0/2048.0 - 1) * 2047 + 2048;
-    //out_buf_ptr[i]=(float) (in_buf_ptr[i] * 1.0/2048.0 - 1) * (Wave_LUT[counter])*2047 + 2048;
-    //out_buf_ptr[i] = Wave_LUT[counter]*2048 + 2048;
+    //out_buf_ptr[i] = in_buf_ptr[i];
+
+    float in = ((float) in_buf_ptr[i]);
+    ema_lpf(in);
+    out_buf_ptr[i] = (uint32_t)(ema_out);
+
+    //if (bufIndex > 0) bufIndex--;
+    //else bufIndex = HALF_BUF_SIZE - 1;
+    //bufIndex = 0;
+
+    //fir_out += filter_taps[i] * (float)(in_buf_ptr[bufIndex]);
+
+    //float temp = ((float)(in_buf_ptr[i] * 1.0/2048.0) - 1.0);
+    //out_buf_ptr[i]=(uint32_t)(temp * 2047+2048);
+    //out_buf_ptr[i]=((float)(in_buf_ptr[i] * 1.0/2048.0 - 1) * (Wave_LUT[counter]))*2047 + 2048;
+    //out_buf_ptr[i] = Wave_LUT[counter]*2047 + 2048;
     //counter_counter++;
     //if (counter_counter == 1) {
       //counter++;
       //counter_counter = 0;
     //}
-    counter++;
-    if (counter == NS) counter = 0;
   }
+  //out_buf_ptr[out_out_ptr] = (fir_out / 3000000000 * 4096);
 }
 
 /* USER CODE END 0 */
@@ -354,8 +453,10 @@ int main(void)
   MX_USB_OTG_FS_PCD_Init();
   MX_ADC1_Init();
   MX_TIM6_Init();
+  MX_TIM7_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_Base_Start(&htim6);
+  HAL_TIM_Base_Start_IT(&htim6);
+  HAL_TIM_Base_Start_IT(&htim7);
   HAL_ADC_Start_DMA(&hadc1, (uint32_t*) adc_val, FULL_BUF_SIZE);
   HAL_DAC_Start_DMA(&hdac1, DAC_CHANNEL_1, (uint32_t*) dac_val, FULL_BUF_SIZE, DAC_ALIGN_12B_R);
 
@@ -364,12 +465,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-    if (flag) {
-      flag = 0;
-      process_data();
-    }
+    while (1)
+    {
+      if (flag) {
+        HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+        flag = 0;
+        process_data();
+      }
     //HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
     //HAL_Delay(1000);
     /* USER CODE END WHILE */
@@ -411,10 +513,10 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_MSI;
   RCC_OscInitStruct.PLL.PLLM = 1;
-  RCC_OscInitStruct.PLL.PLLN = 71;
+  RCC_OscInitStruct.PLL.PLLN = 80;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
   RCC_OscInitStruct.PLL.PLLQ = RCC_PLLQ_DIV2;
-  RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV6;
+  RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV4;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -429,7 +531,7 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_4) != HAL_OK)
   {
     Error_Handler();
   }
@@ -519,7 +621,7 @@ static void MX_ADC1_Init(void)
   sConfig.Channel = ADC_CHANNEL_1;
   sConfig.Rank = ADC_REGULAR_RANK_1;
   sConfig.SamplingTime = ADC_SAMPLETIME_2CYCLES_5;
-  sConfig.SingleDiff = ADC_DIFFERENTIAL_ENDED;
+  sConfig.SingleDiff = ADC_SINGLE_ENDED;
   sConfig.OffsetNumber = ADC_OFFSET_NONE;
   sConfig.Offset = 0;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
@@ -562,7 +664,7 @@ static void MX_DAC1_Init(void)
   */
   sConfig.DAC_SampleAndHold = DAC_SAMPLEANDHOLD_DISABLE;
   sConfig.DAC_Trigger = DAC_TRIGGER_T6_TRGO;
-  sConfig.DAC_OutputBuffer = DAC_OUTPUTBUFFER_DISABLE;
+  sConfig.DAC_OutputBuffer = DAC_OUTPUTBUFFER_ENABLE;
   sConfig.DAC_ConnectOnChipPeripheral = DAC_CHIPCONNECT_DISABLE;
   sConfig.DAC_UserTrimming = DAC_TRIMMING_FACTORY;
   if (HAL_DAC_ConfigChannel(&hdac1, &sConfig, DAC_CHANNEL_1) != HAL_OK)
@@ -629,7 +731,7 @@ static void MX_TIM6_Init(void)
   htim6.Instance = TIM6;
   htim6.Init.Prescaler = 0;
   htim6.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim6.Init.Period = 492;
+  htim6.Init.Period = 400;
   htim6.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_Base_Init(&htim6) != HAL_OK)
   {
@@ -644,6 +746,44 @@ static void MX_TIM6_Init(void)
   /* USER CODE BEGIN TIM6_Init 2 */
 
   /* USER CODE END TIM6_Init 2 */
+
+}
+
+/**
+  * @brief TIM7 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM7_Init(void)
+{
+
+  /* USER CODE BEGIN TIM7_Init 0 */
+
+  /* USER CODE END TIM7_Init 0 */
+
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM7_Init 1 */
+
+  /* USER CODE END TIM7_Init 1 */
+  htim7.Instance = TIM7;
+  htim7.Init.Prescaler = 0;
+  htim7.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim7.Init.Period = 10000;
+  htim7.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim7) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim7, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM7_Init 2 */
+
+  /* USER CODE END TIM7_Init 2 */
 
 }
 
@@ -726,6 +866,9 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(USB_PowerSwitchOn_GPIO_Port, USB_PowerSwitchOn_Pin, GPIO_PIN_RESET);
 
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, GPIO_PIN_RESET);
+
   /*Configure GPIO pin : B1_Pin */
   GPIO_InitStruct.Pin = B1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
@@ -751,6 +894,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(USB_PowerSwitchOn_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PC8 */
+  GPIO_InitStruct.Pin = GPIO_PIN_8;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
